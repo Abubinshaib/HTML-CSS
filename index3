@@ -1,0 +1,239 @@
+first create one folder name is Restaurant inside three files index , about , menu 
+second create another folder name is services inside two files catering , corporateevent
+
+                     index file
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+        <h1>Spicy Hut - Finest Taste, Freshest Ingredients</h1>
+        <a href= "index.html">
+         Home
+        </a>
+        <a href="about.html">
+        About
+        </a>
+        <a href="menu.html">
+         Menu           
+        </a>
+        <a href="https://www.swiggy.com/" target="_blank">order online</a>
+        <h3>Dine In and Take out</h3>
+        <h3>Catering Services</h3>
+        <h3>Corporate Events</h3>
+        <a href="mailto:spicyhut@gmail.com ">Send a mail to us</a>
+        <a href="menu.html#desert"> Check our new  deserts  </a>
+  </body>
+  </html>
+  
+
+                      about file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+           <h1>Spicy Hut - Finest Taste, Freshest Ingredients</h1>
+      <a href= "index.html">
+         Home
+     </a>
+     <a href="about.html">
+        About
+     </a>
+        <a href="menu.html">
+         Menu           
+     </a>
+     <a href="https://www.swiggy.com/" target="_blank">order online</a>
+        <h1>About Us</h1>
+        <p>Launched in 2018 by Ankit and Aarthi to share their love for authentic Indian food.After huge
+            response for first branch in Guidy, we expanded to OMR and Adyar. The goal was to serve highrst
+            quality food in afforable price. Ingredients are selected with atmost care
+        </p>
+        <p>We provide finest dine in ambience and ensure hygiene in every aspect.
+            We are able to cater to a group of 10 to a large gathering of up to 1000
+        </p>
+            
+</body>
+</html>
+
+
+                     menu file
+
+          <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <h1>Spicy Hut - Finest Taste, Freshest Ingredients</h1>
+     <a href= "index.html">
+         Home
+        </a>
+        <a href="about.html">
+        About
+        </a>
+        <a href="menu.html">
+         Menu           
+        </a>
+        <a href="https://www.swiggy.com/" target="_blank">order online</a>
+    <h2> Starter </h2>
+     <ol>
+        <li>
+            Samosa Rs.28
+        </li>
+        <li>
+            Veg Roll Rs.28
+        </li>
+        <li>
+            Vada Rs.25
+        </li>
+     </ol>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+          <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+      <h2 id="desert"> Desert</h2>
+     <ol>
+        <li>
+            Gulab Jamun Rs.55
+        </li>
+        <li>
+            Basundi Rs.110
+        </li>
+        <li>
+            Mango Lassi Rs.65
+        </li>       
+     </ol>
+
+
+
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+          <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+          <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+     
+</body>
+</html>
+
+
+
+             services folder catering files 
+
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>        
+        Catering
+    </h1>
+    <a href="../index.html">       
+        Home
+    </a>
+    
+</body>
+</html>
+
+
+
+
+     
+
+
+             
+
+
