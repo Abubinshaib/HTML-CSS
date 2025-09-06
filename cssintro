@@ -1,0 +1,176 @@
+1.Types of CSS
+
+(a) Inline CSS
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Inline CSS</title>
+</head>
+<body>
+  <h1 style="color: blue; text-align: center;">Hello Inline CSS</h1>
+</body>
+</html>
+
+(b) Internal CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internal CSS</title>
+  <style>
+    h1 {
+      color: red;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello Internal CSS</h1>
+</body>
+</html>
+
+(c) External CSS
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>External CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hello External CSS</h1>
+</body>
+</html>
+
+ create style.css file 
+h1 {
+  color: green;
+  text-align: center;
+}
+
+
+
+2. Types of CSS Selectors
+
+(a) Universal Selector (*)
+
+* {
+  font-family: Arial, sans-serif;
+}
+
+(b) Element Selector
+
+p {
+  color: blue;
+}
+
+
+(c) Class Selector (.classname)
+
+.note {
+  background-color: yellow;
+}
+
+<p class="note">This is a note with yellow background.</p>
+
+
+(d) ID Selector (#idname)
+
+#special {
+  color: red;
+  font-weight: bold;
+}
+
+<p id="special">This is styled using ID.</p>
+
+
+(e) Grouping Selector (,)
+
+h1, h2, p {
+  text-align: center;
+  color: green;
+}
+
+(f) Descendant Selector (Parent Child)
+
+div p {
+  color: purple;
+}
+
+<div>
+  <p>This paragraph is inside div</p>
+</div>
+
+
+(g) Child Selector (>)
+
+div > p {
+  color: orange;
+}
+
+
+(h) Pseudo-classes
+
+Used for special states (hover, link, visited).
+
+a:hover {
+  color: red;
+}
+
+
+
+(i) Pseudo-elements (::)
+
+Style specific parts of an element.
+
+p::first-letter {
+  font-size: 30px;
+  color: blue;
+}
+
+
+Final Example: All together
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Example</title>
+  <style>
+    * { font-family: Arial, sans-serif; }
+
+    h1 { color: green; }
+
+    .highlight { background: yellow; }
+
+    #unique { color: red; }
+
+    div p { color: blue; }
+
+    a:hover { color: orange; }
+
+    p::first-letter { font-size: 25px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h1>Types of CSS Selectors</h1>
+  <p class="highlight">This is class selector example.</p>
+  <p id="unique">This is ID selector example.</p>
+  <div>
+    <p>Paragraph inside div (descendant selector).</p>
+  </div>
+  <a href="#">Hover me</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
