@@ -1,0 +1,48 @@
+<!-- CSS BOX MODEL
+
+The CSS box model has 4 main parts:
+
+Content – The actual text, image, or other element inside.
+
+Padding – The space between the content and the border. (transparent area)
+
+Border – The line (or thickness) around the padding and content.
+
+Margin – The space outside the border (between this element and others).
+
++---------------------------+   ← Margin
+|       Margin (outside)    |
+|  +---------------------+  |   ← Border
+|  |      Border         |  |
+|  |  +---------------+  |  |   ← Padding
+|  |  |   Padding     |  |  |
+|  |  | +-----------+ |  |  |   ← Content
+|  |  | |  Content  | |  |  |
+|  |  | +-----------+ |  |  |
+|  |  +---------------+  |  |
+|  +---------------------+  |
++---------------------------+    -->
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 200px;              /* Content width */
+      height: 100px;             /* Content height */
+      background-color: lightblue; 
+      
+      padding: 20px;             /* Space inside box */
+      border: 5px solid blue;    /* Border thickness & color */
+      margin: 30px;              /* Space outside box */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">This is a CSS Box</div>
+</body>
+</html>
+
